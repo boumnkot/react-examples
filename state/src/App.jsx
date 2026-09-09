@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import './App.css';
-import Contra from './Contradict.jsx'
+import Duplicate from './Duplicate.jsx';
 function App() {
   return (
     <>
-    <Contra/>
+      <Duplicate />
     </>
   );
 }

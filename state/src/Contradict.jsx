@@ -24,8 +24,8 @@ export default function Contra() {
     setStatus('sent');
   }
 
-  const isSending = status === 'sending'; //It is a conditional flag. Checks the value of status to eql "sending"
-  const isSent = status === 'sent';
+  const isSending = status === 'sending'; //It is a conditional flag. Checks if the value of status eqls "sending"
+  const isSent = status === 'sent';//Same here except it checks "sent"
 
   if (isSent) {
     return <h1>Thanks for the feedback!</h1>;
