@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import './App.css';
-import TravelPlan from './Nested.jsx';
+import Accordion from './/SharingState.jsx';
 function App() {
   return (
     <>
-      <TravelPlan />
+      <Accordion />
     </>
   );
 }
